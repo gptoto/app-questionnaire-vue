@@ -29,3 +29,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - Ajouter des questions
 - Faire un lien avec la base de données
 ```
+
+### Repository .io 
+```
+https://github.com/gptoto/gptoto.github.io/upload/master
+```
