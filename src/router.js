@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
-import Question from './views/Question.vue'
+import Question from './views/Questionnaire.vue'
 
 Vue.use(Router)
 
