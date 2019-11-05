@@ -73,7 +73,7 @@
     display: grid;
     grid-template-columns: 15% 35% 35% 15%;
     grid-template-rows: 15% 35% 35% 15%;
-    background-color: lightblue;
+    /*background-color: lightblue;*/
   }
 
   h3 {

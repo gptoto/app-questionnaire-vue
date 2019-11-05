@@ -1,7 +1,7 @@
 <template>
   <div id="home">
 <!--    Ajout d'une image pour remplacer le logo de Vue.js -->
-    <img alt="Logo Questions" src="../assets/logo+(62).png" height="100px" width="130px">
+    <img  id="logo" alt="Logo Questions" src="../assets/logo+(62).png" height="100px" width="130px">
     <div id="Accueil">
       <FormCandidat></FormCandidat>
     </div>
@@ -27,18 +27,14 @@ export default {
     height: 100%;
   }
 
-  body {
+  #home {
     height: 100%;
-    background-color: darkgreen;
-  }
-
-  #Home {
-    height: 100%;
-    background-color: white;
+    /*background-color: white;*/
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 25% 25% 25% 25%;
   }
+
 
   #Accueil {
     grid-column: 2/4;
