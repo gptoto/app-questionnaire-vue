@@ -1,31 +1,31 @@
 {
   "questions": [
     {
-      "question": "Question 1 ?",
+      "question": "Question 1 : Combien font 1+1 ?",
       "type": "radio",
       "choix": [
-        "Steeve",
-        "Paul",
-        "Pierre"
+        "4, je crois...",
+        "2, élémentaire mon cher Watson.",
+        "Je refuse de répondre. C'est mon droit le plus légal. Cette question est trop dure."
       ]
     },
     {
-      "question": "Question 2 ?",
+      "question": "Question 2 : Si 1 est rouge, 3 est rose et que le mélange de 1 et 2 font 3, de quelle couleur est 2 ?",
       "type": "radio",
       "choix": [
-        "Léo",
-        "Théo",
-        "Axel"
+        "Rose évidemment.",
+        "Qui êtes-vous pour me poser cette question. J'appelle mon avocat.",
+        "La barbe de dumbledore."
       ]
     },
     {
-      "question": "Question 3 ?",
+      "question": "Question 3 : Pain au chocolat ou chocolatine ?",
       "type": "radio",
       "choix": [
-        "choix 1",
-        "choix 2",
-        "choix 3",
-        "choix 4"
+        "Je manque cruellement de goût, je dis chocolatine.",
+        "Croissant.",
+        "Je refuse de me prononcer. Cessez ou j'appelle la police cette fois-ci !",
+        "Assurément : pain avec du chocolat dedans."
       ]
     },
     {

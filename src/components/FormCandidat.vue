@@ -1,7 +1,8 @@
 <template>
+<!--  Déclaration des champs à afficher (Nom,Prénom,Société) et message d'erreur en cas de champs non remplis-->
   <div id="connection-block">
     <h1>Identification</h1>
-    <span v-if="showError" class="errorMessage">Les champs doivent être tous remplis !</span>
+    <span v-if="showError" class="errorMessage">Veuillez remplir tous les champs.</span>
     <b-input-group prepend="Nom" class="mt-3">
       <b-form-input v-model="nom"></b-form-input>
     </b-input-group>
@@ -12,7 +13,7 @@
       <b-form-input v-model="nomSociete"></b-form-input>
     </b-input-group>
 
-    <b-button block variant="primary" class="connectButton" @click="connected">Début du test:</b-button>
+    <b-button block variant="primary" class="connectButton" @click="connected">Commencer</b-button>
   </div>
 </template>
 
@@ -20,12 +21,12 @@
     export default {
         name: "FormCandidat",
         data() {
-          return {
+            return {
                 nom: "",
                 prenom: "",
                 nomSociete: "",
                 showError: false
-          }
+            }
         },
         methods: {
             connected() {
@@ -38,6 +39,7 @@
                             nomSociete: this.nomSociete
                         }
                     })
+
                 } else {
                     this.showError = true
                 }
