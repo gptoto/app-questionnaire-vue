@@ -11,7 +11,8 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-    background-image: url("assets/754632.jpg");
-    background-size: cover;
+  align-items: center;
+  background-image: url("assets/754632.jpg");
+  background-size: cover;
 }
 </style>
