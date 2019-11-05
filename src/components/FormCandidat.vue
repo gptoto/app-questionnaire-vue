@@ -48,7 +48,7 @@
 
 <style scoped>
   .connectButton {
-    margin-top: 4%;
+    margin-top: 5%;
   }
 
   .errorMessage {

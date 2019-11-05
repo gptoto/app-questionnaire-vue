@@ -13,8 +13,8 @@ export default new Router({
       component: Home
     },
     {
-      path: '/question',
-      name: 'question',
+      path: '/questionnaire',
+      name: 'questionnaire',
       component: Question
     }
   ]
