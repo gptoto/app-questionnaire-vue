@@ -22,3 +22,10 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Séance du 05 / 11 / 2019
+```
+- Rendre possible la connexion
+- Ajouter des questions
+- Faire un lien avec la base de données
+```
